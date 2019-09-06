@@ -16,6 +16,8 @@ import {
   arrayType,
   typeAliases
 } from "./lessons/SpecialTypes";
+import Interfaces from "./lessons/Interfaces";
+import Classes from "./lessons/Classes";
 // ArrowFunctions();
 // ObjectLiteral();
 // RestParameter();
@@ -33,4 +35,6 @@ import {
 // functionType();
 // objectType();
 // arrayType();
-typeAliases();
+// typeAliases();
+// Interfaces();
+Classes();
