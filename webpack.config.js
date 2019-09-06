@@ -7,7 +7,7 @@ module.exports = {
   resolve: {
     extensions: [".js", ".ts"]
   },
-  mode: {
+  module: {
     rules: [{ test: /\.ts$/, use: "awesome-typescript-loader" }]
   },
   devServer: {
