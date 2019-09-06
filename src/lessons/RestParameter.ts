@@ -1,0 +1,7 @@
+export default (): void => {
+  const sumAll = (message: string, ...arr: Array<number>) => {
+    console.log(message);
+    arr.reduce((prev: number, next: number) => prev + next);
+  };
+  const sum = sumAll("Hello", 1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+};
