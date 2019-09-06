@@ -1,2 +1,3 @@
-console.log("Typescript!!!");
-const rent: any = 0;
+import ArrowFunctions from "./lessons/ArrowFunctions";
+
+ArrowFunctions();
